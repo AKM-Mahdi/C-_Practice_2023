@@ -16,6 +16,11 @@ int main()
     {
         cout<<x[i]<<endl;
     }
+
+    vector<float> y= {1.2,1.3,1.4,1.5};
+    y.resize(3);
+    for(int i=0; i<y.size(); i++)
+        cout<<y[i]<<endl;
     return 0;
 }
 
